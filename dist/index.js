@@ -9,7 +9,7 @@ dotenv_1.default.config();
 const app = (0, express_1.default)();
 const PORT = process.env.PORT;
 app.get("/", (request, response) => {
-    response.status(200).send("123123");
+    response.status(200).send("Teste");
 });
 app
     .listen(PORT, () => {
